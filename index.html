@@ -2,30 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"
-        integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/9355c14ca6.js" crossorigin="anonymous"></script>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Speech API</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-<body>
-    <div class='container fluid mt-5'>
-        <div class='container text-center w-50 mx-auto fluid mic-box'>
-            <div class='circle mx-auto'>
-                <span style="font-size: 5em; color: Blue;">
-                    <i class="fas fa-microphone-alt"></i>
-                </span>
-            </div>
-        </div>
-        <div id='output' class='container-fluid text-center border mt-4'>
-            Speech Text Here
-        </div>
-    </div>
+  <script src="https://kit.fontawesome.com/9355c14ca6.js" crossorigin="anonymous"></script>
+
+<body style="background-color:#011f4b;">
+  <h1 class="mt-5">Speech to Text</h1>
+  <div style="font-size: 6em;" class="icons">
+    <i class="fas fa-microphone-alt"></i>
+    <i class="fas fa-arrow-right ml-5"></i>
+    <i class="fas fa-file-alt ml-5"></i>
+  </div>
+  <a href="textToSpeech.html" class="start btn btn-primary btn-lg">Click to Start</a>
+  <script src="text2speech.js" type="text/javascript"></script>
 </body>
+
 </html>

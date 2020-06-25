@@ -1,13 +1,37 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
+h1{
+  margin-left: 40%;
+}
+.icons{
+  margin-left: 37%;
+  margin-top: 5%;
+}
+.start{
+  margin-left: 44%;
+  margin-top: 6%;
+}
+
 .circle{
-    border: 1px solid blue;
+    border: 1px solid white;
     width: 125px;
     border-radius: 50%;
     height: 125px;
 }
 .circle:hover{
-    background-color: lightblue;
+    background-color: #03396c;
+}
+.micButton{
+  margin-left: 43%;
+  margin-top: 3%;
+}
+#output{
+  background-color: white;
+  color:black;
+  width:600px;
+  height:300px;
+
 }
